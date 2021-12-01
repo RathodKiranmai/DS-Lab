@@ -1,0 +1,58 @@
+#include<stdio.h>
+#include<stdlib.h>
+  struct node
+  {
+   int data;
+   struct node*link;
+   structnode*top = null ,* cur,*temp;
+   };
+    void push v(int ele)
+    {
+     cur = (sruct node*)malloc (size of(struct node ));
+     cur --> data = ele;
+     if (top == null)
+         cur --> link = top;
+         else
+            cur --> link = top;
+            top = cur;
+            }
+  POP FUNCTION()
+  struct node
+  {
+  int data;
+  struct node * link;
+  struct node *top = null, *temp;
+  };
+  int pop()
+  temp = top;
+  if(top == Null)
+  printf("stack underflow");
+  else
+  {
+   top = top --> link;
+   return(temp --> data);
+   free (temp);
+   }
+}
+  PEAK FUNCTION()
+struct node
+{
+int data;
+struct node * link;
+struct node*top = null,*curr,*temp;
+};
+int peek()
+{
+   return (top --> data);
+}
+DISPLAY FUNCTION()
+struct node
+{
+int data ;
+struct node*link;
+while(temp! = null)
+{
+printf("%d\n;temp --> datat);
+temp = temp -->link
+  }
+ }
